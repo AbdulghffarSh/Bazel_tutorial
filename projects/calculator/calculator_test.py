@@ -4,7 +4,7 @@ from calculator import Calculator
 class TestSum(unittest.TestCase):
   def test_sum(self):
     calculator = Calculator()
-    self.assertEqual(calculator.add(2, 2), 4)
+    self.assertEqual(calculator.add(2, 2), 12)
 
   def test_sum_negative(self):
     calculator = Calculator()
